@@ -3,6 +3,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -14,7 +15,6 @@ body{
 }
 
 .gridElement {
-    width: 2,9vh;
-    height:2,9vh;
+
     border: 1px solid black;
 }
