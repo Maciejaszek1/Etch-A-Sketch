@@ -18,7 +18,3 @@ body{
     height:2,9vh;
     border: 1px solid black;
 }
-
-.gridElement:hover {
-    background-color: blue;
-}
