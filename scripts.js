@@ -19,13 +19,12 @@ function createGrid(){
 
         gridElement.classList.add('gridElement');
 
-        gridElement.textContent = i;   
         container.appendChild(gridElement);
     }
 
     const elements = document.querySelectorAll('.gridElement');
     elements.forEach(element => element.addEventListener('mouseover',function(){
-        element.style.backgroundColor = "yellow";
+        element.style.backgroundColor = "black";
 }));
 }
 

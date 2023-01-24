@@ -12,9 +12,10 @@ body{
     height:48vh;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
+    border: 1px solid black;
 }
 
 .gridElement {
-
-    border: 1px solid black;
+    max-width: inherit;
+    max-height: inherit;
 }
